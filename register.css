@@ -1,0 +1,103 @@
+body{
+  background-color: #f1f1f1;
+  margin:0;
+}
+header{
+  height:423px;
+  text-align: center;
+  background-image:url(123.jpg);
+  background-position: center;
+  font-size: 35px;
+  
+}
+
+nav{
+
+  background-color: black;
+  text-decoration: none;
+  display:flex;
+  list-style: none;
+}
+nav a{
+  float:left;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 29px;
+  text-align: center;
+  padding:24.5px;
+  
+  
+  
+}
+
+nav a:hover{
+  background-color: red;
+  
+}
+
+footer{
+  padding: 20px;
+  margin: 0px;
+  text-decoration: none;
+  text-align: center;
+  background-color:green;
+  color:white;
+ font-size: 40px; 
+}
+
+footer h2{
+  justify-content: right;
+  text-decoration: none;
+  font-size: 15px;
+}
+footer a{
+  color:black;
+  text-decoration: none;
+}
+
+img{
+  width:100%;
+}
+h2{
+  padding:100px;
+  color: whitesmoke;
+  margin:0px;
+}
+select{
+  width:100%;
+  border:1px solid black;
+  height:50px;
+}
+input[type=text]{
+  width:745px;
+  height:50px;
+  
+  border:1px solid black;
+}
+input[type=email] {
+  width: 745px;
+  height: 50px;
+
+  border: 1px solid black;
+}
+textarea{
+ border:2px solid black; 
+  width:100%;
+  height:400px;
+}
+input[type=submit] {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+
+  border: 1px solid black;
+}
+
+  
+  
+
+textarea{
+  width:100%;
+  border:2px solid black;
+}
